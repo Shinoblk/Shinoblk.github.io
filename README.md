@@ -2,15 +2,7 @@
 <head>
   <title>Beeds by Nylah</title>
   <style>
-    /* CSS for the page layout */
-    body {
-      margin: 0;
-      padding: 0;
-      background-image: none;
-      background-color: rgba(255, 192, 203, 0.5);
-    }
-    /* Other CSS for the page */
-    /* ... */
+    
   </style>
 </head>
 <body>
