@@ -1,13 +1,12 @@
 <html>
 <head>
-  <title>Waist Bead Shop</title>
+  <title>Beeds by Nylah</title>
   <style>
     /* CSS for the page layout */
     body {
       margin: 0;
       padding: 0;
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Crystal_waist_beads.jpg/1920px-Crystal_waist_beads.jpg');
-      background-size: cover;
+      background-image: none;
       background-color: rgba(255, 192, 203, 0.5);
     }
     /* Other CSS for the page */
