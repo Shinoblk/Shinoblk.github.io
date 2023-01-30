@@ -1,13 +1,27 @@
 <html>
 <head>
-  <title>Beeds by Nylah</title>
+  <title>Waist Bead Shop</title>
   <style>
-    
+    /* CSS for the page layout */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: rgba(255, 192, 203, 0.5);
+    }
+    /*CSS for the header*/
+    header {
+      background-color: pink;
+      color: Red;
+      text-align: center;
+      padding: 1em;
+    }
+    /* Other CSS for the page */
+    /* ... */
   </style>
 </head>
 <body>
   <header>
-    <h1>Beeds by Nylah</h1>
+    <h1>Welcome to my waist bead shop!</h1>
   </header>
 
   <main>
