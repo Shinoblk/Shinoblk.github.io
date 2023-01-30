@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to my waist bead shop!</h1>
+    <h1>Beeds by Nylah</h1>
   </header>
 
   <main>
