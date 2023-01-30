@@ -23,10 +23,27 @@
   <header>
     <h1>Welcome to my waist bead shop!</h1>
   </header>
-
+  
   <main>
     <div class="container">
-      <p>This is the main content of my website.</p>
+      <section>
+        <h2>Our Products</h2>
+        <div class="product">
+          <h3>Fruit Punch</h3>
+          <img src="https://example.com/fruit-punch-beads.jpg" alt="Fruit Punch waist beads">
+          <button>Buy Now</button>
+        </div>
+        <div class="product">
+          <h3>Grape</h3>
+          <img src="https://example.com/grape-beads.jpg" alt="Grape waist beads">
+          <button>Buy Now</button>
+        </div>
+        <div class="product">
+          <h3>Pink Lemonade</h3>
+          <img src="https://example.com/pink-lemonade-beads.jpg" alt="Pink Lemonade waist beads">
+          <button>Buy Now</button>
+        </div>
+      </section>
     </div>
   </main>
 
