@@ -1,58 +1,30 @@
-<html>
-<head>
-  <title>My Waist Bead Shop</title>
-  <style>
-    /* CSS for the page layout */
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: pink; /* added pink background */
-    }
-
-    header {
-      background-color: pink; /* changed banner to pink */
-      color: Red;
-      text-align: center;
-      padding: 1em;
-    }
-
-    main {
-      margin: 0;
-      padding: 0;
-    }
-
-    /* CSS for the main content area */
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    /* CSS for the footer */
-    footer {
-      background-color: #4CAF50;
-      color: Black;
-      text-align: center;
-      padding: 1em;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
-</head>
-<body>
+<body style="background-color: pink;">
   <header>
-    <h1>Welcome to my Waist Bead Shop!</h1>
+    <h1 style="color: #ffc0cb;">Welcome to my waist bead shop!</h1>
   </header>
 
   <main>
     <div class="container">
-      <p>Choose from our selection of waist beads</p>
-      <p style="color: red">Fruit Punch</p>
-      <p style="color: green">Grape</p>
-      <p style="color: pink">Pink Lemonade</p>
-      <button>Buy Now</button>
+      <p>This is the main content of my website.</p>
+
+      <section class="products">
+        <h2>Our Products</h2>
+        <div class="product">
+          <h3 style="color: #ff69b4;">Pink Lemonade</h3>
+          <p>Description of Pink Lemonade waist beads</p>
+          <button style="background-color: #ff69b4; color: white;">Buy Now</button>
+        </div>
+        <div class="product">
+          <h3 style="color: green;">Grape</h3>
+          <p>Description of Grape waist beads</p>
+          <button style="background-color: green; color: white;">Buy Now</button>
+        </div>
+        <div class="product">
+          <h3 style="color: red;">Fruit Punch</h3>
+          <p>Description of Fruit Punch waist beads</p>
+          <button style="background-color: red; color: white;">Buy Now</button>
+        </div>
+      </section>
     </div>
   </main>
 
