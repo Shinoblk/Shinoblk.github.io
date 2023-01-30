@@ -2,7 +2,14 @@
 <head>
   <title>Waist Bead Shop</title>
   <style>
-    header {
+    /* CSS for the page layout */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+css
+Copy code
+header {
   background-color: #ffc0cb;
   color: #ffc0cb;
   text-align: center;
@@ -49,38 +56,23 @@ footer {
 .pink-lemonade {
   color: #ff69b4;
 }
-
+  </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to my waist bead shop!</h1>
+    <h1>Welcome to my Waist Bead Shop!</h1>
   </header>
-  
   <main>
     <div class="container">
-      <section>
-        <h2>Our Products</h2>
-        <div class="product">
-          <h3>Fruit Punch</h3>
-          <img src="https://example.com/fruit-punch-beads.jpg" alt="Fruit Punch waist beads">
-          <button>Buy Now</button>
-        </div>
-        <div class="product">
-          <h3>Grape</h3>
-          <img src="https://example.com/grape-beads.jpg" alt="Grape waist beads">
-          <button>Buy Now</button>
-        </div>
-        <div class="product">
-          <h3>Pink Lemonade</h3>
-          <img src="https://example.com/pink-lemonade-beads.jpg" alt="Pink Lemonade waist beads">
-          <button>Buy Now</button>
-        </div>
-      </section>
+      <p class="product-name fruit-punch">Fruit Punch</p>
+      <p class="product-name grape">Grape</p>
+      <p class="product-name pink-lemonade">Pink Lemonade</p>
     </div>
   </main>
-
   <footer>
-    <p>Copyright ©2022 My Website</p>
+    <p>Copyright ©2022 Waist Bead Shop</p>
   </footer>
 </body>
 </html>
+
+
