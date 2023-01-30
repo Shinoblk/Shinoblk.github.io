@@ -1,26 +1,26 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Waist Bead Shop</title>
+  <title>My Waist Bead Shop</title>
   <style>
     /* CSS for the page layout */
     body {
       margin: 0;
       padding: 0;
-      background-color: black;
+      background-color: pink; /* added pink background */
     }
-    /*header */
+
     header {
-      background-color: pink;
-      color: white;
+      background-color: pink; /* changed banner to pink */
+      color: Red;
       text-align: center;
       padding: 1em;
     }
-    /*CSS for main content */
+
     main {
       margin: 0;
       padding: 0;
     }
+
     /* CSS for the main content area */
     .container {
       display: flex;
@@ -28,23 +28,11 @@
       align-items: center;
       flex-wrap: wrap;
     }
-    /* CSS for the products section*/
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    /* CSS for individual product*/
-    .product {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 1em;
-    }
+
     /* CSS for the footer */
     footer {
-      background-color: pink;
-      color: black;
+      background-color: #4CAF50;
+      color: Black;
       text-align: center;
       padding: 1em;
       position: absolute;
@@ -55,30 +43,21 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to my waist bead shop!</h1>
+    <h1>Welcome to my Waist Bead Shop!</h1>
   </header>
 
   <main>
     <div class="container">
-        <div class="products">
-          <div class="product">
-            <h3 style="color: strawberry;">Pink Lemonade</h3>
-            <button style="background-color: pink;">Buy Now</button>
-          </div>
-          <div class="product">
-            <h3 style="color: red;">Fruit Punch</h3>
-            <button style="background-color: pink;">Buy Now</button>
-          </div>
-          <div class="product">
-            <h3 style="color: green;">Grape</h3>
-            <button style="background-color: pink;">Buy Now</button>
-          </div>
-        </div>
+      <p>Choose from our selection of waist beads</p>
+      <p style="color: red">Fruit Punch</p>
+      <p style="color: green">Grape</p>
+      <p style="color: pink">Pink Lemonade</p>
+      <button>Buy Now</button>
     </div>
   </main>
 
   <footer>
-    <p>Copyright ©2022 Waist Bead Shop</p>
+    <p>Copyright ©2022 My Website</p>
   </footer>
 </body>
 </html>
