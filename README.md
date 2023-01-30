@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Waist Bead Shop</title>
@@ -8,19 +9,18 @@
       padding: 0;
       background-color: black;
     }
-
+    /*header */
     header {
-      background-color: #ffc0cb;
-      color: red;
+      background-color: pink;
+      color: white;
       text-align: center;
       padding: 1em;
     }
-
+    /*CSS for main content */
     main {
       margin: 0;
       padding: 0;
     }
-
     /* CSS for the main content area */
     .container {
       display: flex;
@@ -28,11 +28,23 @@
       align-items: center;
       flex-wrap: wrap;
     }
-
+    /* CSS for the products section*/
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    /* CSS for individual product*/
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1em;
+    }
     /* CSS for the footer */
     footer {
-      background-color: #4CAF50;
-      color: Black;
+      background-color: pink;
+      color: black;
       text-align: center;
       padding: 1em;
       position: absolute;
@@ -48,11 +60,20 @@
 
   <main>
     <div class="container">
-      <p style="color: red;">Fruit Punch</p>
-      <p style="color: green;">Grape</p>
-      <p style="color: #ff69b4;">Pink Lemonade</p>
-      <br>
-      <button>Buy Now</button>
+        <div class="products">
+          <div class="product">
+            <h3 style="color: strawberry;">Pink Lemonade</h3>
+            <button style="background-color: pink;">Buy Now</button>
+          </div>
+          <div class="product">
+            <h3 style="color: red;">Fruit Punch</h3>
+            <button style="background-color: pink;">Buy Now</button>
+          </div>
+          <div class="product">
+            <h3 style="color: green;">Grape</h3>
+            <button style="background-color: pink;">Buy Now</button>
+          </div>
+        </div>
     </div>
   </main>
 
