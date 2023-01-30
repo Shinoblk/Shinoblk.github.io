@@ -2,22 +2,54 @@
 <head>
   <title>Waist Bead Shop</title>
   <style>
-    /* CSS for the page layout */
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: rgba(255, 192, 203, 0.5);
-    }
-    /*CSS for the header*/
     header {
-      background-color: pink;
-      color: Red;
-      text-align: center;
-      padding: 1em;
-    }
-    /* Other CSS for the page */
-    /* ... */
-  </style>
+  background-color: #ffc0cb;
+  color: #ffc0cb;
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS for the main content area */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #000000;
+}
+
+/* CSS for the footer */
+footer {
+  background-color: #4CAF50;
+  color: Black;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* CSS for the product names */
+.product-name {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0.5em;
+}
+.fruit-punch {
+  color: #ff0000;
+}
+.grape {
+  color: #00ff00;
+}
+.pink-lemonade {
+  color: #ff69b4;
+}
+
 </head>
 <body>
   <header>
